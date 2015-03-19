@@ -11,7 +11,7 @@ One day I saw a link to [Phil Libin’s talk in 2010](https://vimeo.com/11932184
 </tr>
 </table>
 
-The presentation was amazing on two levels. First, Evernote has very impressive retention story to tell. Secondly, the visualizations were stunning; they told a **visual story** without numbers. I could just look at the shapes to understand what was going on.
+The presentation was amazing on two levels. First, Evernote has very impressive retention story. Second, the visualizations were compelling; they told a story, visually without needing a lot of numbers. By just looking at the shapes, you could see what was going on.
 
 So then I couldn’t get the idea out of my head — what if every product owner could see their user activity this way, visually, through Phil’s lens? I definitely wanted to see my products this way.
 

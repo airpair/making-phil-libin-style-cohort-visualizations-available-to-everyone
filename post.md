@@ -45,6 +45,8 @@ We’re big [Meteor](https://www.meteor.com/) fans, so we decided to use Meteor 
 
 Also, to keep things simple, we used a node library called [Monq](https://github.com/scttnlsn/monq) which keeps track of the job queue right in MongoDB.
 
+Also, we didn't have a designer for the project, so we decided to follow Google's [Material Design spec](http://www.google.com/design/spec/material-design) via [Polymer](https://www.polymer-project.org/).
+
 So our process looked like this:
 
 <img src="http://blog.usercycle.com/content/images/2015/03/Screenshot-2015-03-18-20-41-38.png">

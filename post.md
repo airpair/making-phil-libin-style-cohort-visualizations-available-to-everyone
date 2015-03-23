@@ -2,12 +2,12 @@ One day I saw a link to [Phil Libin’s talk in 2010](https://vimeo.com/11932184
 
 <table style="max-width: 640px;">
 <tr>
-<td><a href="https://vimeo.com/11932184#t=705s"><img style="padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/1.png"></a></td>
-<td><a href="https://vimeo.com/11932184#t=705s"><img style="padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/2.png"></a></td>
+<td><a href="https://vimeo.com/11932184#t=705s"><img style="width:310px;padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/1.png"></a></td>
+<td><a href="https://vimeo.com/11932184#t=705s"><img style="width:310px;padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/2.png"></a></td>
 </tr>
 <tr>
-<td><a href="https://vimeo.com/11932184#t=705s"><img style="padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/3.png"></a></td>
-<td><a href="https://vimeo.com/11932184#t=705s"><img style="padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/4.png"></a></td>
+<td><a href="https://vimeo.com/11932184#t=705s"><img style="width:310px;padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/3.png"></a></td>
+<td><a href="https://vimeo.com/11932184#t=705s"><img style="width:310px;padding: 5px;" src="http://blog.usercycle.com/content/images/2014/Aug/4.png"></a></td>
 </tr>
 </table>
 

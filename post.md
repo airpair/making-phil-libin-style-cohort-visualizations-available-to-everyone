@@ -23,7 +23,7 @@ The way systems like this work is that you have to reliably get events from the 
 
 We figured we'd build something that looks like this:
 
-<img src="http://blog.usercycle.com/content/images/2015/03/Screenshot-2015-03-18-20-41-38.png">
+<img src="http://astronomer.io/content/images/2015/09/Screenshot-2015-03-18-20-41-38.png">
 
 Not only did we need to build the data initially, but we want to keep the charts up-to-date throughout the day, refreshing the data hourly.
 
@@ -36,7 +36,7 @@ Four main components to the system:
 
 Here's a mockup of the sort of visualization we were going for:
 
-<img src="http://blog.usercycle.com/content/images/2015/03/Screenshot-2015-03-01-12-35-39.png" />
+<img src="http://astronomer.io/content/images/2015/09/Screenshot-2015-03-01-12-35-39--1-.png" />
 
 Next, I'll share some details on how we built these components.
 
@@ -101,7 +101,7 @@ So to compute *just one data point in one chart*, we need to run `n` queries by 
 
 Keen IO has a powerful filters feature, allowing you to filter just about every query based on event properties. We didn't support filters at first, to keep things simple, but eventually we decided it was time. Didn’t seem too hard conceptually, but let's see how many files adding the feature touched:
 
-<img src="http://blog.usercycle.com/content/images/2015/03/Screenshot-2015-03-18-11-07-37.png">
+<img src="http://astronomer.io/content/images/2015/09/Screenshot-2015-03-18-11-07-37.png">
 
 In fact, the feature touched 37 files, in 195 places. It turned out to be not so easy, and did increase complexity throughout our codebase.
 
@@ -111,7 +111,7 @@ This is a great example of how an innocent-looking feature can be quite complica
 
 To limit the # of data points per chart, we only show a maximum of 30 cohorts, and lump data older than 30 cohorts old into a "catch-all" bucket.
 
-<img src="http://blog.usercycle.com/content/images/2015/03/Screenshot-2015-03-18-20-48-12.png">
+<img src="http://astronomer.io/content/images/2015/09/Screenshot-2015-03-18-20-48-12.png">
 
 Our max # of data points became: `30 x 29 / 2 + n` where n represents the number of periods for the catch all cohort. 
 
@@ -135,7 +135,7 @@ With each new feature we add to the app, we find ourselves refactoring the user 
 
 ## Where do we go from here?
 
-We've been building the product for about three months. USERcycle is launched, and users are signing up and setting themselves up independently, so we're thrilled about that. We’ve been evangelizing the heck out of Keen IO. (We love the Keen IO team, so this really isn’t much of a burden.)
+We've been building the product for about three months. Cohorts is launched, and users are signing up and setting themselves up independently, so we're thrilled about that. We’ve been evangelizing the heck out of Keen IO. (We love the Keen IO team, so this really isn’t much of a burden.)
 
 We’re working now to replace the quick-and-dirty, minimal Google Visualizations we whipped up with something a little nicer, using D3.
 
@@ -151,5 +151,5 @@ THANK GOODNESS we decided to limit the complexity of our system and build on top
 
 ---
 
-**Shameless self promotion:** If you have a product with a signup button, and would like to see your product through Phil Libin's lens, I invite you to [sign up for USERcycle](https://usercycle.com).
+**Shameless self promotion:** If you have a product with a signup button, and would like to see your product through Phil Libin's lens, I invite you to [sign up for Cohorts](https://cohorts.astronomer.io).
 
